@@ -1,0 +1,77 @@
+form {
+    border: 3px solid #f1f1f1;
+    margin-top: 10vh;
+    margin-left: 65vh;
+    max-width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  /*assign full width inputs*/
+  
+  input[type=text],
+  input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  /*set a style for the buttons*/
+  
+  button {
+    background-color: rgb(38, 38, 39);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  /* set a hover effect for the button*/
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    height: 60%;
+  }
+  /*set image properties*/
+  
+  img.avatar {
+  
+    height: 60%;
+    border-radius: 50%;
+  }
+  /*set padding to the container*/
+  
+  .container {
+    padding: 16px;
+  }
+  /*set the forgot password text*/
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  /*set styles for span and cancel button on small screens*/
+  
+  @media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+  }
+  
+  @media  (max-width:300px) {
+    form{
+      margin: 0px;
+    }
+    
+  }
